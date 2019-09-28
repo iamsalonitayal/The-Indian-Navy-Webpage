@@ -1,0 +1,114 @@
+/* Add a black background color to the top navigation */
+
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 35px 40px;
+    font-family: Agency FB;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a:hover{
+      color: rgb(16, 23, 31);
+      background-color: rgb(56, 101, 146);
+  }
+
+
+.video-background{  
+  position: relative;
+  top: 50%;
+  left: 50%;
+  bottom: 0%;
+  min-width: 1500px;
+  min-height: 500px;
+  transform: translateX(-50%) translateY(-0%);
+  z-index: -100;
+}
+
+.videobck{
+  height:100%;
+  width:100%;
+}
+
+.textonvideo{
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  z-index: 200;
+  font-weight: 700;
+}
+ 
+
+ .txt1{
+   text-align: center;
+   color: rgb(16, 42, 68);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size:45px;
+   margin-top: 2%;
+  }
+
+  .txt2{
+    text-align: center;
+    color: black;
+    font-size:20px;
+    font-family: Agency Fb;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .row{
+    display: flex;
+  }
+  .column{
+    flex: 33.3%;
+    padding: 0px;
+  }
+  .image1{
+    position: relative;
+  }
+  .image1 .textonimage{
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    color: white;
+  }
+  .image2{
+    position: relative;
+    text-align: left;
+    color: black;
+    z-index: 10;
+  }
+  .image2 .textonimage2{
+    position: absolute;
+    top: 23px;
+    left: 15%;
+    background-color: rgba(240, 248, 255, 0.719);
+    z-index: 3000;
+    margin-left: 0%;margin-right: 0%;
+  }
+  .footer{
+    background-color: rgb(15, 15, 15);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .footer a {
+    float: left;
+    color: rgb(231, 223, 223);
+    text-align: center;
+    padding: 45px 10px;
+    font-family: Agency FB;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+  }
+  .mdbtn{
+    float: right;
+  }
